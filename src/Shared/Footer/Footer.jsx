@@ -2,8 +2,8 @@ import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
    return (
       <footer className="bg-black">
-         <div className="flex">
-            <div className="bg-neutral w-1/2 text-white text-center py-10">
+         <div className="flex xsm:flex-col sm:flex-row">
+            <div className="bg-neutral xsm:w-full sm:w-1/2 text-white text-center py-10">
                <p className="py-2">CONTACT US</p>
                <small className="block">123 ABS Street, Uni 21, Bangladesh</small>
                <small className="block">+88 123456789</small>
@@ -11,7 +11,7 @@ const Footer = () => {
                <small className="block">Sat - Sun: 10:00 - 23:00</small>
 
             </div>
-            <div className="bg-black w-1/2 text-white flex items-center justify-center flex-col">
+            <div className="bg-black xsm:w-full sm:w-1/2 xsm:pt-5 sm:pt-0 text-white flex items-center justify-center flex-col">
                <h3>Follow US</h3>
                <small>Join us on social media</small>
                <div className="flex gap-2 py-5 text-2xl">

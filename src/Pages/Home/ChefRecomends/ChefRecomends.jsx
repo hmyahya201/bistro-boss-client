@@ -13,7 +13,7 @@ const ChefRecomends = () => {
             title="CHEF RECOMMENDS"
          ></TitleComp>
 
-         <div className='lg:mx-20 my-20'>
+         <div className='lg:mx-20 my-20 px-5'>
             <div className='grid md:grid-cols-3 gap-6'>
                <div className="card card-compact w-auto h-96 bg-base-100 shadow-xl">
                   <figure><img className='w-full' src={img1} alt="receipe" /></figure>

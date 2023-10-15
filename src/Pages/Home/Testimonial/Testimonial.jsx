@@ -48,7 +48,7 @@ const Testimonial = () => {
    return (
       <div>
          <TitleComp title="TESTIMONIALS" subtitle="What Our Clients Say"></TitleComp>
-         <div className="py-5 px-10 mx-20 mb-10">
+         <div className="py-5 xsm:px-5 xsm:mx-2 sm:mx-5  md:px-10 md:mx-20 mb-10">
          <Slider {...settings}>
             {
                rating.map(review=><ClientRating 

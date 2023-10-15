@@ -5,7 +5,7 @@ import img from '../../assets/icon/Vector.png'
 const ClientRating = ({ review }) => {
    const { name, details, rating } = review
    return (
-      <div className='w-3/4 mx-auto'>
+      <div>
          <div>
             <div className='mx-auto grid place-items-center'>
                <Rating
@@ -15,12 +15,12 @@ const ClientRating = ({ review }) => {
                />
             </div>
             <div className='flex items-center justify-center my-8 gap-2'>
-               <img className='w-8' src={img} alt="" />
-               <img className='w-8' src={img} alt="" />
+               <img className='xsm:w-5 md:w-8' src={img} alt="" />
+               <img className='xsm:w-5 md:w-8' src={img} alt="" />
             </div>
-            <div className='text-center'>
+            <div className='text-center xsm:px-5 sm:px-10'>
                <p>{details}</p>
-               <h4 className='text-orange-400 text-xl font-medium uppercase italic mt-3'>{name}</h4>
+               <h4 className='text-orange-400 xsm:text-lg sm:text-xl font-medium uppercase italic mt-3'>{name}</h4>
             </div>
          </div>
       </div>

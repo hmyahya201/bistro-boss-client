@@ -8,7 +8,7 @@ const Navbar = () => {
       <li className="text-xl mx-2 px-1 cursor-pointer"><a>Our Shop</a></li>
    </>
    return (
-      <div className="navbar fixed z-10 bg-black bg-opacity-40 text-white max-w-screen-xl">
+      <div className="navbar fixed z-10 bg-black bg-opacity-70 text-white max-w-screen-xl">
          <div className="navbar-start">
             <div className="dropdown">
                <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -19,8 +19,8 @@ const Navbar = () => {
                </ul>
             </div>
             <div className="normal-case">
-               <a className="text-2xl block font-bold">BISTRO BOSS</a>
-               <a className="block text-lg tracking-[5px] text-center">RESTAURANT</a>
+               <a className="xsm:text-lg sm:text-2xl block font-bold">BISTRO BOSS</a>
+               <a className="xsm:hidden sm:block md:text-lg tracking-[5px] text-center">RESTAURANT</a>
             </div>
 
          </div>
@@ -30,12 +30,12 @@ const Navbar = () => {
             </ul>
          </div>
          <div className="navbar-end">
-            <div className="relative">
+            <div className="relative xsm:hidden sm:block">
                <span className="absolute top-0 right-0 rounded-full text-white text-center text-lg">0</span>
               <FaShoppingCart className="text-2xl text-green-800"></FaShoppingCart>
             </div>
-            <button className="text-xl mx-2 px-1 cursor-pointer">Sign Out</button>
-            <div><FaUserCircle className="text-3xl"></FaUserCircle></div>
+            <button className="text-xl md:mx-2 px-1 cursor-pointer">Sign Out</button>
+            <div className="xsm:hidden sm:block"><FaUserCircle className="text-3xl"></FaUserCircle></div>
          </div>
       </div>
    );

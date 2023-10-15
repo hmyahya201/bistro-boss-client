@@ -25,7 +25,7 @@ const MenuSec = () => {
                item={item}
             ></MenuItems>)}
          </div>
-         <div className='mt-5 text-center w-2/12 mx-auto'>
+         <div className='mt-5 text-center xsm:w-1/2 md:w-2/12 mx-auto'>
             <p className='uppercase py-2 border-b-4 font-medium cursor-pointer'>View Full Menu</p>
          </div>
       </div>

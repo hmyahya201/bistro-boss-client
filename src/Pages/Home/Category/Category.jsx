@@ -58,23 +58,23 @@ const Category = () => {
          <div className="lg:px-20 mb-10">
             <Slider {...settings}>
                <div className="relative">
-                  <img src={img1} alt="" />
+                  <img className="mx-auto" src={img1} alt="" />
                   <p className="text-2xl text-white absolute bottom-8 left-1/2 -translate-x-1/2">SALADS</p>
                </div>
                <div className="relative">
-                  <img src={img2} alt="" />
+                  <img className="mx-auto" src={img2} alt="" />
                   <p className="text-2xl text-white absolute bottom-8 left-1/2 -translate-x-1/2">SOUPS</p>
                </div>
                <div className="relative">
-                  <img src={img3} alt="" />
+                  <img className="mx-auto" src={img3} alt="" />
                   <p className="text-2xl text-white absolute bottom-8 left-1/2 -translate-x-1/2">PIZZA</p>
                </div>
                <div className="relative">
-                  <img src={img4} alt="" />
+                  <img className="mx-auto" src={img4} alt="" />
                   <p className="text-2xl text-white absolute bottom-8 left-1/2 -translate-x-1/2">DESSEPTS</p>
                </div>
                <div className="relative">
-                  <img src={img5} alt="" />
+                  <img className="mx-auto" src={img5} alt="" />
                   <p className="text-2xl text-white absolute bottom-8 left-1/2 -translate-x-1/2">SALADS</p>
                </div>
             </Slider>
