@@ -1,8 +1,7 @@
 import React from 'react';
-import { Parallax, Background } from 'react-parallax';
-import img from '../../assets/home/chef-service.jpg'
+import { Parallax} from 'react-parallax';
 
-const AdverTizeCom = ({ style, heading, text }) => {
+const AdverTizeCom = ({img, style, heading, text }) => {
    return (
       <div className='xsm:mt-10 md:mt-20'>
          <Parallax
