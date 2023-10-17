@@ -5,8 +5,8 @@ const Footer = () => {
          <div className="flex xsm:flex-col sm:flex-row">
             <div className="bg-neutral xsm:w-full sm:w-1/2 text-white text-center py-10">
                <p className="py-2">CONTACT US</p>
-               <small className="block">123 ABS Street, Uni 21, Bangladesh</small>
-               <small className="block">+88 123456789</small>
+               <small className="block">Bondor Bazar Road, Sylhet, Bangladesh</small>
+               <small className="block">+88 01625290235</small>
                <small className="block">Mon - Fri: 08:00 - 22:00</small>
                <small className="block">Sat - Sun: 10:00 - 23:00</small>
 
