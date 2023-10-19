@@ -1,12 +1,13 @@
 import { FaUserCircle, FaShoppingCart} from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 const Navbar = () => {
+   const category = useParams()
    const navOptions = <>
       <li className="text-xl mx-2 px-1 cursor-pointer"><Link to='/'>Home</Link></li>
       <li className="text-xl mx-2 px-1 cursor-pointer"><Link to='/ourmenu'>Our Menu</Link></li>
       <li className="text-xl mx-2 px-1 cursor-pointer"><a>Contact Us</a></li>
       <li className="text-xl mx-2 px-1 cursor-pointer"><a>Deshboard</a></li>
-      <li className="text-xl mx-2 px-1 cursor-pointer"><a>Our Shop</a></li>
+      <li className="text-xl mx-2 px-1 cursor-pointer"><Link to='/ourshop/salad'>Our Shop</Link></li>
    </>
    return (
       <div className="navbar fixed z-10 bg-black bg-opacity-70 text-white max-w-screen-xl">

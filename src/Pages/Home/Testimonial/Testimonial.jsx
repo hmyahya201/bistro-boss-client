@@ -42,7 +42,6 @@ const Testimonial = () => {
       .then(res=>res.json())
       .then(data=>{
          setRating(data)
-         console.log("ddd", rating)
       })
    },[])
    return (

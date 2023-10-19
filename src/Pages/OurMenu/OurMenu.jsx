@@ -27,18 +27,18 @@ const OurMenu = () => {
             title="TODAY'S OFFER"
             subtitle="Don't miss"
          ></TitleComp>
-        <MenuCategory items ={offereds}></MenuCategory>
+        <MenuCategory items ={offereds} title="dessert"></MenuCategory>
          <AdverTizeCom img={dessertImg} style="bg-black bg-opacity-40 text-white" heading="desserts" text ="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></AdverTizeCom>
-         <MenuCategory items ={desserts}></MenuCategory>
+         <MenuCategory items ={desserts} title="dessert"></MenuCategory>
 
          <AdverTizeCom img={pizzaImg} style="bg-black bg-opacity-40 text-white" heading="pizza" text ="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></AdverTizeCom>
-         <MenuCategory items ={pizzaes}></MenuCategory>
+         <MenuCategory items ={pizzaes} title="pizza"></MenuCategory>
 
          <AdverTizeCom img={saladImg}  style="bg-black bg-opacity-40 text-white" heading="salad" text ="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></AdverTizeCom>
-         <MenuCategory items ={salads}></MenuCategory>
+         <MenuCategory items ={salads} title="salad" ></MenuCategory>
 
          <AdverTizeCom img ={soupImg} style="bg-black bg-opacity-40 text-white" heading="soup" text ="Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."></AdverTizeCom>
-         <MenuCategory items ={soups}></MenuCategory>
+         <MenuCategory items ={soups} title="soup"></MenuCategory>
       </div>
    );
 };

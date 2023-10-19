@@ -3,9 +3,10 @@ import TitleComp from '../../../Components/TitleComp/TitleComp';
 import img1 from '../../../assets/home/slide1.jpg'
 import img2 from '../../../assets/home/slide2.jpg'
 import img3 from '../../../assets/home/slide3.jpg'
+import FoodCard from '../../../Components/FoodCard/FoodCard';
 
 const ChefRecomends = () => {
-   const button = <button className="py-2 px-5 bg-base-300 border-b-4 rounded-lg text-orange-400 text-sm border-orange-400 uppercase hover:bg-black transition-colors">add to cart</button>
+        const button = <button className="py-2 px-5 bg-base-300 border-b-4 rounded-lg text-orange-400 text-sm border-orange-400 uppercase hover:bg-black transition-colors">add to cart</button> 
    return (
       <div>
          <TitleComp
